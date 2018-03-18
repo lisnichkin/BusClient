@@ -1,0 +1,25 @@
+<p>
+  booking works!
+</p>
+
+<div class="container">  
+  <form ngSubmit="onSubmit(bookingForm)" #bookingForm="ngForm" id="contact">
+    <h3>Colorlib Contact Form</h3>
+    <h4>Contact us for custom quote</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <!-- <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+    </fieldset> -->
+    <fieldset>
+      <button ng-click="onSubmit(bookingForm)" name="submit" type="submit" id="contact-submit">Submit</button>
+    </fieldset>
+  </form>
+</div>
