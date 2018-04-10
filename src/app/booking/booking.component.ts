@@ -9,8 +9,10 @@ import { NgForm } from '@angular/forms'
 })
 export class BookingComponent {
 
+   backgorundImg;
 
   constructor() {
+    this.backgorundImg = 'C:\Users\lisni\Documents\Visual Studio 2017\Projects\BusClient\src\img\bus-background.jpeg';
    }
 
    onSubmit(form:NgForm){

@@ -5,12 +5,18 @@ import { FormsModule} from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { BookingComponent } from './booking/booking.component';
+import { HeaderComponent } from './header/header.component';
+import { LeftBarComponent } from './left-bar/left-bar.component';
+import { FormsComponent } from './forms/forms.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BookingComponent
+    BookingComponent,
+    HeaderComponent,
+    LeftBarComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
